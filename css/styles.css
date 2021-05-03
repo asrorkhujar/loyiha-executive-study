@@ -11,9 +11,10 @@ body {
 .site-navigator {
   display: flex;
   align-items: center;
+  padding-right: 108px;
 }
 
-.logo-black{
+.logo-black {
   padding-left: 149px;
 }
 
@@ -32,7 +33,7 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-  padding-right: 108px;
+  /* padding-right: 108px; */
 }
 
 .nav-items a {
@@ -60,7 +61,7 @@ body {
   padding: 5px 10px;
 }
 
-.hidden-h1{
+.hidden-h1 {
   color: goldenrod;
   background-color: rgb(0, 0, 0);
   width: 230px;
@@ -197,10 +198,10 @@ body {
 .our-services-all {
   align-items: center;
 
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* justify-content: space-evenly; */
-    padding-bottom: 120px;
+  /* display: flex; */
+  /* flex-wrap: wrap; */
+  /* justify-content: space-evenly; */
+  padding-bottom: 120px;
 }
 
 .our-head-texts h2 {
@@ -229,9 +230,9 @@ body {
 }
 
 .our-head-texts {
-align-items: center;
-padding-left: 245px;
-/* width: 1200px; */
+  align-items: center;
+  padding-left: 245px;
+  /* width: 1200px; */
 
 }
 
@@ -273,7 +274,7 @@ padding-left: 245px;
   color: rgba(55, 71, 79, 0.721569);
 }
 
-.university-admissions-texts{
+.university-admissions-texts {
   padding: 30px 17px 30px 31px;
 }
 
@@ -298,12 +299,12 @@ padding-left: 245px;
   color: rgba(55, 71, 79, 0.721569);
 }
 
-.university-icon{
+.university-icon {
   padding-top: 29px;
   padding-left: 31px;
 }
 
-.visa-consultancy-texts{
+.visa-consultancy-texts {
   padding: 30px 17px 30px 31px;
 }
 
@@ -328,12 +329,12 @@ padding-left: 245px;
   color: rgba(55, 71, 79, 0.721569);
 }
 
-.visa-icon{
+.visa-icon {
   padding-top: 29px;
   padding-left: 31px;
 }
 
-.accommodation-texts{
+.accommodation-texts {
   padding: 30px 17px 30px 31px;
 }
 
@@ -358,12 +359,12 @@ padding-left: 245px;
   color: rgba(55, 71, 79, 0.721569);
 }
 
-.accommodation-icon{
+.accommodation-icon {
   padding-top: 29px;
   padding-left: 31px;
 }
 
-.pre-departure-briefing-texts{
+.pre-departure-briefing-texts {
   padding: 30px 17px 30px 31px;
 }
 
@@ -388,7 +389,7 @@ padding-left: 245px;
   color: rgba(55, 71, 79, 0.721569);
 }
 
-.pre-departure-icon{
+.pre-departure-icon {
   padding-top: 29px;
   padding-left: 31px;
 }
@@ -451,5 +452,4 @@ padding-left: 245px;
   width: 1200px;
   justify-content: center;
   align-items: center;
-
 }
