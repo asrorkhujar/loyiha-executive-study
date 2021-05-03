@@ -13,6 +13,10 @@ body {
   align-items: center;
 }
 
+.logo-black{
+  padding-left: 149px;
+}
+
 .site-navigator a {
   text-decoration: none;
   font-family: Roboto;
@@ -21,8 +25,6 @@ body {
   font-size: 17px;
   line-height: 20px;
   /* identical to box height */
-
-
   color: #373737;
 }
 
@@ -30,7 +32,7 @@ body {
   list-style: none;
   display: flex;
   align-items: center;
-
+  padding-right: 108px;
 }
 
 .nav-items a {
@@ -56,6 +58,12 @@ body {
   border: 2px solid #717CFF;
   border-radius: 11px;
   padding: 5px 10px;
+}
+
+.hidden-h1{
+  color: goldenrod;
+  background-color: rgb(0, 0, 0);
+  width: 230px;
 }
 
 .button-apply-online {
@@ -87,6 +95,7 @@ body {
 
 .we-help {
   width: 632px;
+  padding-left: 149px;
 }
 
 .we-help span {
@@ -120,6 +129,7 @@ body {
 .foto-studentka {
   width: 470px;
   height: 565px;
+  padding-right: 128px;
 }
 
 .sot-set {
@@ -186,9 +196,10 @@ body {
 
 .our-services-all {
   align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-evenly; */
     padding-bottom: 120px;
 }
 
@@ -217,7 +228,12 @@ body {
   width: 949px;
 }
 
-.our-head-texts {}
+.our-head-texts {
+align-items: center;
+padding-left: 245px;
+/* width: 1200px; */
+
+}
 
 .career-all {
   width: 344px;
@@ -434,5 +450,6 @@ body {
   flex-wrap: wrap;
   width: 1200px;
   justify-content: center;
+  align-items: center;
 
 }
