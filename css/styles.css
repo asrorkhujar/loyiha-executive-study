@@ -453,3 +453,141 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.news-all {
+  background-color: #FAFAFA;
+  width: 1440px;
+  height: 1120px;
+
+}
+
+.news-texts {
+  width: 1000px;
+  padding-top: 60px;
+  padding-left: 225px;
+
+}
+
+.news-texts h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 54px;
+  /* identical to box height, or 146% */
+  text-align: center;
+  letter-spacing: -0.4625px;
+  color: #373737;
+}
+
+.news-texts h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  /* or 173% */
+  text-align: center;
+  color: #7D7D7D;
+}
+
+.three-news-section {
+  display: flex;
+  padding-top: 100px;
+}
+
+.come-on {
+  width: 344px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+  border-radius: 10px;
+}
+
+.come-on h3 {
+  padding-left: 30px;
+  padding-bottom: 62px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #252525;
+}
+
+.trump-lays {
+  width: 344px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+  border-radius: 10px;
+}
+
+.trump-lays h3 {
+  padding-left: 30px;
+  padding-bottom: 62px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #252525;
+}
+
+.how-a-little {
+  width: 344px;
+  background: #FFFFFF;
+  box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
+  border-radius: 10px;
+}
+
+.how-a-little h3 {
+  padding-left: 30px;
+  padding-bottom: 62px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 26px;
+  color: #252525;
+}
+
+.button-join-here {
+  border-radius: 5px;
+  align-items: center;
+
+}
+
+.button-join-here a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.button-join-here {
+  align-items: center;
+  display: flex;
+  background: #717CFF;
+  justify-content: space-between;
+  border-radius: 11px;
+  width: 200px;
+  padding: 12px 20px 12px 34px;
+  border: none;
+}
+
+.calendar-time {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 19px;
+  color: #565656;
+  padding-left: 30px;
+}
+
+.button-join {
+  padding-left: 607px;
+  padding-top: 146px;
+}
