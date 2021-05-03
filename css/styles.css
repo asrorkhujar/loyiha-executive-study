@@ -1,120 +1,128 @@
-body{
+body {
   background: #fff;
   font-family: 'Roboto', sans-serif;
 }
+
 /* .container{
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 } */
-.site-navigator{
-   display: flex;
+.site-navigator {
+  display: flex;
   align-items: center;
 }
 
-.site-navigator a{
-text-decoration: none;
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 20px;
-/* identical to box height */
+.site-navigator a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
 
 
-color: #373737;
+  color: #373737;
 }
 
-.nav-items{
+.nav-items {
   list-style: none;
   display: flex;
   align-items: center;
 
 }
-.nav-items a{
+
+.nav-items a {
   display: flex;
   padding: 5px;
 }
 
-.site-header{
-display: flex;
-justify-content: space-between;
-align-items: center;
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.button-apply{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 17px;
-line-height: 20px;
-text-align: center;
-background: #fff;
-color: #505050;
-border: 2px solid #717CFF;
-border-radius: 11px;
-padding: 5px 10px;
+.button-apply {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+  background: #fff;
+  color: #505050;
+  border: 2px solid #717CFF;
+  border-radius: 11px;
+  padding: 5px 10px;
 }
-.button-apply-online{
+
+.button-apply-online {
   border-radius: 5px;
   align-items: center;
 }
-.button-online-strelka{
+
+.button-online-strelka {
   align-items: center;
   display: flex;
   background: #717CFF;
   justify-content: space-between;
-border-radius: 11px;
-width: 200px;
-padding: 12px 20px 12px 34px;
-border: none;
+  border-radius: 11px;
+  width: 200px;
+  padding: 12px 20px 12px 34px;
+  border: none;
 }
-.button-online-strelka a{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 40px;
-color: #FFFFFF;
-text-decoration: none;
+
+.button-online-strelka a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 40px;
+  color: #FFFFFF;
+  text-decoration: none;
 
 }
 
-.we-help{
+.we-help {
   width: 632px;
 }
-.we-help span{
+
+.we-help span {
   color: #717CFF;
 }
-.we-help-all{
+
+.we-help-all {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  }
-  .we-help h2{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 56px;
-    line-height: 66px;
-    color: #2F2F2F;
-  }
+}
 
-  .we-help h3{
-font-family: Roboto;
-font-style: normal;
-font-weight: 500;
-font-size: 22px;
-line-height: 38px;
-color: #7D7D7D;
-  }
+.we-help h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 56px;
+  line-height: 66px;
+  color: #2F2F2F;
+}
 
-.foto-studentka{
+.we-help h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  color: #7D7D7D;
+}
+
+.foto-studentka {
   width: 470px;
   height: 565px;
 }
 
-.sot-set{
+.sot-set {
   display: flex;
   text-decoration: none;
   list-style: none;
@@ -124,7 +132,7 @@ color: #7D7D7D;
 
 }
 
-.university h2{
+.university h2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -137,40 +145,294 @@ color: #7D7D7D;
   color: #373737;
   mix-blend-mode: normal;
   opacity: 0.73;
+  padding-top: 55px;
 }
 
-.logo-university{
+.logo-university {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 168px 116px 175px 128px;
+  width: 1200px;
 }
 
-.partners-button-active{
-width: 14px;
-height: 14px;
-background-color: #717CFF;
-border-radius: 50px;
-border: none;
+.partners-button-active {
+  width: 14px;
+  height: 14px;
+  background-color: #717CFF;
+  border-radius: 50px;
+  border: none;
 }
 
-.partners-button{
+.partners-button {
   width: 10px;
   height: 10px;
   background: rgba(124, 124, 124, 0.318837);
   border-radius: 50px;
   border: none;
   padding: 0;
-
 }
 
-.buttons{
-
+.buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-bottom: 57px;
 }
 
-.university{
-background-color: #FAFAFA;
-padding: 55px 116px 57px 128px;
+.university {
+  background-color: #FAFAFA;
+  /* padding: 55px 116px 57px 128px; */
+}
+
+.our-services-all {
+  align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 120px;
+}
+
+.our-head-texts h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 54px;
+  /* identical to box height, or 146% */
+  text-align: center;
+  letter-spacing: -0.4625px;
+  color: #373737;
+  width: 949px;
+}
+
+.our-head-texts h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  /* or 173% */
+  text-align: center;
+  color: #7D7D7D;
+  width: 949px;
+}
+
+.our-head-texts {}
+
+.career-all {
+  width: 344px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+.career-icon {
+  padding-top: 29px;
+  padding-left: 31px;
+}
+
+
+.career-counselling-texts {
+  padding: 30px 17px 30px 31px;
+}
+
+.career-counselling-texts h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 37px;
+  /* identical to box height, or 154% */
+  color: #37474F;
+}
+
+.career-counselling-texts p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.444444px;
+  color: rgba(55, 71, 79, 0.721569);
+}
+
+.university-admissions-texts{
+  padding: 30px 17px 30px 31px;
+}
+
+.university-admissions-texts h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 37px;
+  /* identical to box height, or 154% */
+  color: #37474F;
+}
+
+.university-admissions-texts p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.444444px;
+  color: rgba(55, 71, 79, 0.721569);
+}
+
+.university-icon{
+  padding-top: 29px;
+  padding-left: 31px;
+}
+
+.visa-consultancy-texts{
+  padding: 30px 17px 30px 31px;
+}
+
+.visa-consultancy-texts h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 37px;
+  /* identical to box height, or 154% */
+  color: #37474F;
+}
+
+.visa-consultancy-texts p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.444444px;
+  color: rgba(55, 71, 79, 0.721569);
+}
+
+.visa-icon{
+  padding-top: 29px;
+  padding-left: 31px;
+}
+
+.accommodation-texts{
+  padding: 30px 17px 30px 31px;
+}
+
+.accommodation-texts h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 37px;
+  /* identical to box height, or 154% */
+  color: #37474F;
+}
+
+.accommodation-texts p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.444444px;
+  color: rgba(55, 71, 79, 0.721569);
+}
+
+.accommodation-icon{
+  padding-top: 29px;
+  padding-left: 31px;
+}
+
+.pre-departure-briefing-texts{
+  padding: 30px 17px 30px 31px;
+}
+
+.pre-departure-briefing-texts h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 37px;
+  /* identical to box height, or 154% */
+  color: #37474F;
+}
+
+.pre-departure-briefing-texts p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.444444px;
+  color: rgba(55, 71, 79, 0.721569);
+}
+
+.pre-departure-icon{
+  padding-top: 29px;
+  padding-left: 31px;
+}
+
+
+.learn-more-strelka {
+  width: 133px;
+  padding-left: 31px;
+  padding-bottom: 30px;
+  align-items: center;
+  display: flex;
+}
+
+.learn-more-strelka a {
+  text-decoration: none;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  /* identical to box height */
+  letter-spacing: 0.439286px;
+  color: #717CFF;
+
+}
+
+
+
+.university-admissions-all {
+  width: 344px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+.visa-consultancy-all {
+  width: 344px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+.accommodation-all {
+  width: 344px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+.pre-departure-briefing-all {
+  width: 344px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+.services-sections {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  justify-content: center;
+
 }
