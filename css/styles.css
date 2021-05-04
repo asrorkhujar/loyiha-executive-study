@@ -3,11 +3,13 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* .container{
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-} */
+.container{
+  max-width: 1320px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .site-navigator {
   display: flex;
   align-items: center;
@@ -39,12 +41,21 @@ body {
 .nav-items a {
   display: flex;
   padding: 5px;
+  margin-right: 50px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.5s ease;
+
 }
+
+.nav-items a:hover{
+  border-bottom: 2px solid #717CFF;
+ }
 
 .site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 30px;
 }
 
 .button-apply {
@@ -58,13 +69,22 @@ body {
   color: #505050;
   border: 2px solid #717CFF;
   border-radius: 11px;
-  padding: 5px 10px;
+  padding: 7px 25px;
+  transition: all 0.5s ease;
+
+}
+
+.button-apply:hover{
+  background-color:#717CFF;
+  color: #fff;
+
+
 }
 
 .hidden-h1 {
   color: goldenrod;
-  background-color: rgb(0, 0, 0);
-  width: 230px;
+margin-left: 150px;
+
 }
 
 .button-apply-online {
@@ -130,7 +150,6 @@ body {
 .foto-studentka {
   width: 470px;
   height: 565px;
-  padding-right: 128px;
 }
 
 .sot-set {
@@ -140,6 +159,7 @@ body {
   align-items: center;
   width: 113px;
   justify-content: space-between;
+  margin-top: 80px;
 
 }
 
@@ -157,13 +177,15 @@ body {
   mix-blend-mode: normal;
   opacity: 0.73;
   padding-top: 55px;
+  margin: 0px;
+
 }
 
 .logo-university {
   display: flex;
   justify-content: space-between;
-  padding: 168px 116px 175px 128px;
-  width: 1200px;
+margin-top: 80px;
+margin-bottom: 100px;
 }
 
 .partners-button-active {
@@ -172,6 +194,7 @@ body {
   background-color: #717CFF;
   border-radius: 50px;
   border: none;
+  margin-right: 15px;
 }
 
 .partners-button {
@@ -181,6 +204,17 @@ body {
   border-radius: 50px;
   border: none;
   padding: 0;
+  margin-right: 15px;
+
+}
+
+.partners-button:hover{
+  background-color: rgba(0, 89, 255, 0.671);
+}
+
+
+.last {
+  margin: 0;
 }
 
 .buttons {
@@ -188,21 +222,24 @@ body {
   align-items: center;
   justify-content: center;
   padding-bottom: 57px;
+
 }
 
 .university {
   background-color: #FAFAFA;
   /* padding: 55px 116px 57px 128px; */
+
 }
 
 .our-services-all {
   align-items: center;
-
-  /* display: flex; */
-  /* flex-wrap: wrap; */
-  /* justify-content: space-evenly; */
+  display: flex;
+  flex-wrap: wrap;
   padding-bottom: 120px;
+  justify-content: center;
+
 }
+
 
 .our-head-texts h2 {
   font-family: Roboto;
@@ -227,12 +264,13 @@ body {
   text-align: center;
   color: #7D7D7D;
   width: 949px;
+  padding-bottom: 80px ;
 }
 
 .our-head-texts {
-  align-items: center;
-  padding-left: 245px;
-  /* width: 1200px; */
+  padding-top: 90px;
+  margin-right: auto;
+  margin-left: auto;
 
 }
 
@@ -241,6 +279,7 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
+  margin-right: 45px;
 }
 
 .career-icon {
@@ -273,6 +312,8 @@ body {
   letter-spacing: 0.444444px;
   color: rgba(55, 71, 79, 0.721569);
 }
+
+
 
 .university-admissions-texts {
   padding: 30px 17px 30px 31px;
@@ -423,6 +464,7 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
+  margin-right: 45px;
 }
 
 .visa-consultancy-all {
@@ -430,6 +472,8 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
+
+
 }
 
 .accommodation-all {
@@ -437,6 +481,8 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
+  margin-right: 45px;
+  margin-top: 45px;
 }
 
 .pre-departure-briefing-all {
@@ -444,27 +490,27 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
   border-radius: 15px;
+  margin-top: 45px;
 }
 
 .services-sections {
   display: flex;
   flex-wrap: wrap;
-  width: 1200px;
-  justify-content: center;
-  align-items: center;
+
+
 }
 
 .news-all {
   background-color: #FAFAFA;
-  width: 1440px;
-  height: 1120px;
+
 
 }
 
 .news-texts {
-  width: 1000px;
+  width: 950px;
   padding-top: 60px;
-  padding-left: 225px;
+margin-left: auto;
+margin-right: auto;
 
 }
 
@@ -493,7 +539,10 @@ body {
 
 .three-news-section {
   display: flex;
-  padding-top: 100px;
+  padding-top: 115px;
+
+  justify-content: center;
+
 }
 
 .come-on {
@@ -501,6 +550,7 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
   border-radius: 10px;
+  margin-right: 45px;
 }
 
 .come-on h3 {
@@ -519,6 +569,7 @@ body {
   background: #FFFFFF;
   box-shadow: 0px 6px 42px rgba(0, 0, 0, 0.103884);
   border-radius: 10px;
+  margin-right: 45px;
 }
 
 .trump-lays h3 {
@@ -550,11 +601,6 @@ body {
   color: #252525;
 }
 
-.button-join-here {
-  border-radius: 5px;
-  align-items: center;
-
-}
 
 .button-join-here a {
   font-family: Roboto;
@@ -566,11 +612,18 @@ body {
   text-decoration: none;
 }
 
+.button-join {
+display: flex;
+justify-content: center;
+margin-top: 145px;
+padding-bottom: 125px;
+}
+
 .button-join-here {
-  align-items: center;
+
   display: flex;
   background: #717CFF;
-  justify-content: space-between;
+  justify-content: space-around;
   border-radius: 11px;
   width: 200px;
   padding: 12px 20px 12px 34px;
@@ -587,7 +640,3 @@ body {
   padding-left: 30px;
 }
 
-.button-join {
-  padding-left: 607px;
-  padding-top: 146px;
-}

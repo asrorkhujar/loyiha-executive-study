@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Executive site</title>
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
@@ -15,8 +16,7 @@
 <body>
   <div class="container">
     <header class="site-header">
-      <a class="logo-black" href="#"> <img src="./img/logo-black.svg" alt="logo executive study" width="146"
-          height="52"></a>
+      <a class="logo-black" href="#"> <img src="./img/logo-black.png" alt="logo executive study" width="146" height="52" srcset="./img/logo-black.png 1x, ./img/logo-black.png 2x"></a>
       <nav class="site-navigator">
         <ul class="nav-items">
           <li><a href="#">Home</a></li>
@@ -33,7 +33,7 @@
       <h1 class="hidden-h1">Executive study</h1>
       <div class="we-help-all">
         <div class="we-help">
-          <h2>We Help to <span>Build</span>
+          <h2>We Help to <span>Build</span> <br>
             Your Dream</h2>
           <h3>We are always availed to consult on taking your higher education to the next level so you can stay
             competitive in the</h3>
@@ -51,9 +51,11 @@
         <span class="foto-studentka"><img src="./img/studentka.png" alt="foto student girl" width="470" height="565"
             srcset="./img/studentka.png 1x, ./img/studentka.png 2x"></span>
       </div>
+    </div>
 
       <div class="university">
-        <h2>Featured Universities</h2>
+        <div class="container">
+          <h2>Featured Universities</h2>
         <div class="logo-university">
           <img src="img/macquarie.svg" alt="logo macquarie" width="225" height="68">
           <img src="img/charles.svg" alt="logo charles" width="250" height="64">
@@ -64,10 +66,13 @@
           <button class="partners-button-active" type="button"></button>
           <button class="partners-button" type="button"></button>
           <button class="partners-button" type="button"></button>
-          <button class="partners-button" type="button"></button>
+          <button class="partners-button last" type="button"></button>
+        </div>
         </div>
       </div>
 
+      <!-- Our Services -->
+      <div class="container">
       <div class="our-services-all">
         <div class="our-head-texts">
           <h2>Our Services</h2>
@@ -114,6 +119,8 @@
               <img src="./img/strelkacha.svg" alt="icon strelka" width="15" height="15">
             </div>
           </div>
+        </div>
+
 
           <div class="accommodation-all">
             <img class="accommodation-icon" src="./img/accommodation-icon.svg" alt="icon">
@@ -141,8 +148,13 @@
         </div>
       </div>
 
+<!-- NEWS SECTION -->
+
       <div class="news-all">
+        <div class="container">
         <div class="news-texts">
+
+
           <div class="all-news-sections">
             <h2>News</h2>
             <h3>Sunt autem nusquam hoc epicurus in gravissimo bello animadversionis metu degendae praesidia firmissima.
@@ -180,11 +192,13 @@
             <img src="./img/strelkacha.svg" alt="icon strelka">
           </div>
         </div>
+
+      </div>
       </div>
 
 
     </main>
-  </div>
+
 </body>
 
 </html>
