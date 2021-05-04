@@ -1,7 +1,18 @@
+
 body {
   background: #fff;
   font-family: 'Roboto', sans-serif;
 }
+
+/* html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+} */
 
 .container{
   max-width: 1320px;
@@ -90,6 +101,7 @@ margin-left: 150px;
 .button-apply-online {
   border-radius: 5px;
   align-items: center;
+
 }
 
 .button-online-strelka {
@@ -112,6 +124,13 @@ margin-left: 150px;
   color: #FFFFFF;
   text-decoration: none;
 
+}
+.button-online-strelka:hover{
+
+  /* background-color: #fff;
+  color: #717CFF;
+  border: 1px solid #717CFF;
+  transition: color 0.3s ease,background-color 0.3s ease; */
 }
 
 .we-help {
@@ -638,5 +657,157 @@ padding-bottom: 125px;
   line-height: 19px;
   color: #565656;
   padding-left: 30px;
+}
+
+.university-events-texts h2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 54px;
+  text-align: center;
+  letter-spacing: -0.4625px;
+  color: #373737;
+}
+
+.university-events-texts h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  /* or 173% */
+  text-align: center;
+  color: #7D7D7D;
+  margin-bottom: 90px;
+}
+
+.university-events-texts{
+width: 950px;
+padding-top: 60px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.macquare{
+  width: 540px;
+  height: 308px;
+  margin-right: 45px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+
+  /* margin-right: 45px;
+  margin-top: 45px; */
+}
+
+.upcoming-slider{
+  margin-bottom: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+.macquare-texts h3{
+width: 350px;
+/* padding-top: 10px;
+padding-left: 120px; */
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 37px;
+color: #37474F;
+}
+.macquare p{
+width: 480px;
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 28px;
+letter-spacing: 0.444444px;
+color: rgba(55, 71, 79, 0.721569);
+}
+
+.data-left{
+  display: inline-block;
+}
+
+.data-right{
+  display: inline-block;
+
+  }
+
+
+
+
+.federation{
+  width: 540px;
+  height: 308px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+  border-radius: 15px;
+}
+
+.federation h3{
+  width: 350px;
+}
+.federation p{
+  width: 480px;
+}
+.federatiron-data-text{
+  display: flex;
+
+}
+
+.federatiron-texts h3{
+  width: 350px;
+/* padding-top: 10px;
+padding-left: 120px; */
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 37px;
+color: #37474F;
+
+}
+.federation p{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  /* or 175% */
+  letter-spacing: 0.444444px;
+  color: rgba(55, 71, 79, 0.721569);
+}
+
+.time-day{
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 27px;
+line-height: 32px;
+/* identical to box height */
+text-align: center;
+color: #717CFF;
+width: 76px;
+height: 76px;
+
+}
+
+.time-day p{
+font-family: Roboto;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #717CFF;
+}
+
+.learn-data{
+  display: flex;
 }
 
