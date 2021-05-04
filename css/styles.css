@@ -937,5 +937,157 @@ color: rgba(55, 71, 79, 0.721569);
   align-items: center;
   justify-content: center;
   padding-bottom: 130px;
+  margin-top: 70px;
 
 }
+
+
+.testimonial-texts{
+  width: 949px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 82px;
+  padding-bottom: 75px;
+  text-align: center;
+}
+
+.testimonial-texts h2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 37px;
+  line-height: 54px;
+  /* identical to box height, or 146% */
+  text-align: center;
+  letter-spacing: -0.4625px;
+  color: #373737;
+}
+
+.testimonial-texts h3{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 38px;
+/* or 173% */
+text-align: center;
+color: #7D7D7D;
+}
+
+.people-one{
+  width: 430px;
+}
+.people-one h2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #37474F;
+}
+
+.people-one h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #37474F;
+  mix-blend-mode: normal;
+  opacity: 0.65;
+}
+
+.people-one h4{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 31px;
+color: rgba(55, 71, 79, 0.721569);
+}
+
+.p-one-text{
+  display: flex;
+  align-items: center;
+}
+
+.harrison{
+  margin-left: 28px;
+}
+
+.harrison h2{
+  margin-bottom: 0px;
+}
+.harrison h3{
+  margin-top: 0px;
+}
+
+.buttons-four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 130px;
+  margin-top: 85px ;
+
+}
+
+
+.people-two{
+  width: 430px;
+}
+.people-two h2{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 26px;
+  /* identical to box height */
+  color: #37474F;
+}
+
+.people-two h3{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  /* identical to box height */
+  color: #37474F;
+  mix-blend-mode: normal;
+  opacity: 0.65;
+}
+
+.people-two h4{
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 31px;
+color: rgba(55, 71, 79, 0.721569);
+}
+
+.p-two-text{
+  display: flex;
+  align-items: center;
+}
+
+.ainara{
+  margin-left: 28px;
+}
+
+.ainara h2{
+  margin-bottom: 0px;
+}
+.ainara h3{
+  margin-top: 0px;
+}
+
+.all-persons{
+  display: flex;
+}
+
+
+
+
