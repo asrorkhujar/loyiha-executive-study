@@ -3,15 +3,16 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-/* html {
+ html {
   box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
+
   box-sizing: inherit;
-} */
+}
 
 .container {
   max-width: 1320px;
@@ -102,20 +103,16 @@ body {
   border-radius: 5px;
   align-items: center;
 
+
 }
 
 .button-online-strelka {
   align-items: center;
-  display: flex;
   background: #717CFF;
-  justify-content: space-between;
   border-radius: 11px;
-  width: 200px;
   padding: 12px 20px 12px 34px;
-  border: none;
-}
-
-.button-online-strelka a {
+  border:1px solid transparent ;
+  display: inline-flex;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -123,15 +120,20 @@ body {
   line-height: 40px;
   color: #FFFFFF;
   text-decoration: none;
-
+  margin-right: 50px;
+  box-sizing: border-box;
+  transition: all 0.5s ease ;
 }
 
 .button-online-strelka:hover {
 
-  /* background-color: #fff;
-  color: #717CFF;
+  background-color: #fff;
   border: 1px solid #717CFF;
-  transition: color 0.3s ease,background-color 0.3s ease; */
+  transition: color 0.3s ease,background-color 0.3s ease;
+  color:#717CFF ;
+}
+.button-online-strelka img{
+  margin-left: 30px;
 }
 
 .we-help {
@@ -180,7 +182,17 @@ body {
   width: 113px;
   justify-content: space-between;
   margin-top: 80px;
+  margin-bottom: 50px;
+  padding: 0px;
+}
+.sot-set img{
+  margin-right: 15px;
+}
 
+.main-head{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 145px;
 }
 
 .university h2 {
@@ -457,11 +469,15 @@ body {
 
 
 .learn-more-strelka {
-  width: 133px;
+  width: 180px;
   padding-left: 31px;
   padding-bottom: 30px;
   align-items: center;
   display: flex;
+}
+
+.learn-more-strelka img{
+  margin-left: 20px;
 }
 
 .learn-more-strelka a {
@@ -574,7 +590,8 @@ body {
 }
 
 .come-on h3 {
-  padding-left: 30px;
+  padding-left: 25px;
+  text-align: left;
   padding-bottom: 62px;
   font-family: Roboto;
   font-style: normal;
@@ -582,6 +599,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #252525;
+
 }
 
 .trump-lays {
@@ -593,7 +611,8 @@ body {
 }
 
 .trump-lays h3 {
-  padding-left: 30px;
+  padding-left: 25px;
+  text-align: left;
   padding-bottom: 62px;
   font-family: Roboto;
   font-style: normal;
@@ -611,7 +630,8 @@ body {
 }
 
 .how-a-little h3 {
-  padding-left: 30px;
+  padding-left: 25px;
+  text-align: left;
   padding-bottom: 62px;
   font-family: Roboto;
   font-style: normal;
@@ -657,7 +677,15 @@ body {
   font-size: 16px;
   line-height: 19px;
   color: #565656;
-  padding-left: 30px;
+  padding-left: 25px;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+
+}
+
+.calendar-time img{
+  margin-right: 10px;
 }
 
 .university-events-texts h2 {
@@ -823,6 +851,174 @@ padding-left: 120px; */
   padding-bottom: 100px;
 
 }
+
+
+
+
+.events {
+  padding-top: 98px;
+  width: 950px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.events h2 {
+  font-size: 37px;
+  line-height: 54px;
+  color: #373737;
+}
+
+.events p{
+  color: #7D7D7D;
+  font-size: 22px;
+  line-height: 38px;
+  margin-top: 25px;
+
+}
+
+.ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+}
+.ul li{
+  background: #FFFFFF;
+box-shadow: 0px 0px 77px rgba(0, 0, 0, 0.06);
+border-radius: 15px;
+margin-bottom: 80px;
+margin-top: 100px;
+}
+
+.first-macqua{
+  margin-right: 45px;
+}
+.ul a{
+  text-decoration: none;
+}
+
+.ul h3 {
+  font-style: 24px;
+  line-height: 37px;
+  color: #37474F;
+
+}
+
+.ul-time {
+
+
+  border: none;
+background-color:rgba(113, 124, 255, 0.2) ;
+border-radius: 11px;
+width: 76px;
+height: 76px;
+
+
+}
+.ul-time time{
+  display: inline-block;
+  padding-top: 10px;
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-bottom: 13px;
+}
+
+.day {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: bold;
+  color: #717CFF;
+}
+
+
+.month {
+  color: #717CFF;
+  font-size: 18px;
+}
+
+
+.ul-ftime {
+  display: flex;
+
+}
+
+.ul-ftime h3 {
+
+margin: 0px;
+margin-left: 19px;
+    color: #37474F;
+    font-size: 24px;
+    line-height: 37px;
+  width: 350px;
+
+
+}
+
+
+.ul  li{
+ border: 1px solid #fff;
+background-color: #fff;
+border-radius: 15px;
+width: 540px;
+height: 308px;
+}
+
+.ul-ftime {
+  padding-top: 29px;
+  padding-right: 62px;
+  padding-bottom: 28px;
+  padding-left: 31px;
+}
+
+.ul p{
+  color: #37474F;
+  font-size: 16px;
+  line-height: 28px;
+  width: 481px;
+  margin-left: 31px;
+}
+
+
+.ul a{
+  font-size: 18px;
+  line-height: 20px;
+  color: #717CFF;
+  margin-left:31px ;
+}
+
+.navigation{
+  width: 17px;
+  margin-left: 20px;
+}
+.nav-time {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.nav{
+  display: inline-flex;
+
+  align-items: center;
+}
+
+.time {
+  margin-right: 28px;
+align-items: center;
+display: flex;
+}
+.time span{
+  margin-right: 5px;
+}
+
+
+
+
+
+
 
 
 /* COUNTRIES WE COVERED */
@@ -1104,6 +1300,8 @@ padding-left: 120px; */
 
 .ready-to-chase {
   background-color: #FAFAFA;
+  padding-bottom: 50px;
+  padding-top: 50px;
 }
 
 .ready-to-chase h2 {
@@ -1112,7 +1310,7 @@ padding-left: 120px; */
   font-weight: bold;
   font-size: 37px;
   line-height: 43px;
-
+margin: 0px;
   color: #252525;
 
 }
@@ -1120,22 +1318,21 @@ padding-left: 120px; */
 .pered-footer {
   display: flex;
   justify-content: space-between;
-  margin: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 
 .button-online-strelka-two {
   align-items: center;
-  display: flex;
   background: #717CFF;
-  justify-content: space-between;
   border-radius: 11px;
-  width: 252px;
-  padding: 12px 20px 12px 34px;
-  border: none;
-}
-
-.button-online-strelka-two a {
+padding-left: 30px;
+padding-right: 40px;
+padding-top: 12px;
+padding-bottom: 12px;
+  border:1px solid transparent;
+  display: inline-flex;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -1143,14 +1340,21 @@ padding-left: 120px; */
   line-height: 40px;
   color: #FFFFFF;
   text-decoration: none;
-
+  margin-right: 50px;
+  box-sizing: border-box;
+  transition: all 0.5s ease ;
 }
 
+
 .button-online-strelka-two:hover {
-  background-color: rgba(56, 41, 194, 0.5);
+  background-color: rgba(248, 248, 248, 0.5);
+  border:1px solid #717CFF;
   color: #717CFF;
 }
 
+.button-online-strelka-two img{
+  margin-left: 50px;
+}
 
 
 
