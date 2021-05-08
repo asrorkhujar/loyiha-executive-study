@@ -132,13 +132,26 @@ body {
   transition: color 0.3s ease,background-color 0.3s ease;
   color:#717CFF ;
 }
-.button-online-strelka img{
+/* .button-online-strelka img{
   margin-left: 30px;
+} */
+
+.button-online-strelka::after{
+  width: 28px;
+  height: 26px;
+flex-shrink: 0;
+  /* display: block; */
+  content: "";
+  background-image: url("../img/strelkacha.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 15px;
+  padding-right: 60px;
 }
 
 .we-help {
-  width: 632px;
-  padding-left: 149px;
+  width: 635px;
+  flex-shrink: 0;
 }
 
 .we-help span {
@@ -169,10 +182,49 @@ body {
   color: #7D7D7D;
 }
 
-.foto-studentka {
-  width: 470px;
-  height: 565px;
+
+.sot-set li:nth-child(1)::before{
+  width: 13px;
+  height: 21px;
+  display: block;
+  content: "";
+  background-image: url("../img/facebook.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
+.sot-set li:nth-child(2)::before{
+  width: 31px;
+  height: 31px;
+  display: block;
+  content: "";
+  background-image: url("../img/twitter.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sot-set li:nth-child(3)::before{
+  width: 31px;
+  height: 31px;
+  display: block;
+  flex-shrink: 0;
+  content: "";
+  background-image: url("../img/instagram.svg");
+  background-size: 31px 31px;
+  background-repeat: no-repeat;
+}
+
+.foto-opa{
+  background-image: url("../img/studentka.png");
+  width: 1049px;
+  height: 728px;
+  background-position-y: 100px;
+  background-position-x: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
 
 .sot-set {
   display: flex;
@@ -185,9 +237,9 @@ body {
   margin-bottom: 50px;
   padding: 0px;
 }
-.sot-set img{
+/* .sot-set img{
   margin-right: 15px;
-}
+} */
 
 .main-head{
   display: flex;
@@ -263,6 +315,11 @@ body {
 
 }
 
+
+
+/* SERVISES */
+
+
 .our-services-all {
   align-items: center;
   display: flex;
@@ -314,11 +371,21 @@ body {
   margin-right: 45px;
 }
 
-.career-icon {
+/* .career-icon {
   padding-top: 29px;
   padding-left: 31px;
-}
+} */
+.career-counselling-texts::before{
+    width: 76px;
+    height: 76px;
+    display: block;
+    content: "";
+    background-image: url("../img/career-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
 
+}
 
 .career-counselling-texts {
   padding: 30px 17px 30px 31px;
@@ -372,10 +439,22 @@ body {
   color: rgba(55, 71, 79, 0.721569);
 }
 
-.university-icon {
+/* .university-icon {
   padding-top: 29px;
   padding-left: 31px;
+} */
+
+.university-admissions-texts::before{
+    width: 76px;
+    height: 76px;
+    display: block;
+    content: "";
+    background-image: url("../img/university-icon.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
 }
+
 
 .visa-consultancy-texts {
   padding: 30px 17px 30px 31px;
@@ -402,10 +481,24 @@ body {
   color: rgba(55, 71, 79, 0.721569);
 }
 
-.visa-icon {
+/* .visa-icon {
   padding-top: 29px;
   padding-left: 31px;
+} */
+
+.visa-consultancy-texts::before{
+  width: 76px;
+  height: 76px;
+  display: block;
+  content: "";
+  background-image: url("../img/visa-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
+
+
+
 
 .accommodation-texts {
   padding: 30px 17px 30px 31px;
@@ -432,10 +525,23 @@ body {
   color: rgba(55, 71, 79, 0.721569);
 }
 
-.accommodation-icon {
+/* .accommodation-icon {
   padding-top: 29px;
   padding-left: 31px;
+} */
+
+.accommodation-texts::before{
+  width: 76px;
+  height: 76px;
+  display: block;
+  content: "";
+  background-image: url("../img/accommodation-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
+
+
 
 .pre-departure-briefing-texts {
   padding: 30px 17px 30px 31px;
@@ -462,10 +568,22 @@ body {
   color: rgba(55, 71, 79, 0.721569);
 }
 
-.pre-departure-icon {
+/* .pre-departure-icon {
   padding-top: 29px;
   padding-left: 31px;
+} */
+
+.pre-departure-briefing-texts::before{
+  width: 76px;
+  height: 76px;
+  display: block;
+  content: "";
+  background-image: url("../img/pre-departure-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
+
 
 
 .learn-more-strelka {
@@ -479,6 +597,21 @@ body {
 .learn-more-strelka img{
   margin-left: 20px;
 }
+
+.learn-more-strelka::after{
+    width: 24px;
+    height: 24px;
+    display: block;
+    content: "";
+    background-image: url("../img/strelkacha.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+   background-position-x: 10px;
+   padding-right: 40px;
+}
+
+
+
 
 .learn-more-strelka a {
   text-decoration: none;
@@ -655,20 +788,33 @@ body {
 .button-join {
   display: flex;
   justify-content: center;
-  margin-top: 145px;
+  margin-top: 200px;
   padding-bottom: 125px;
 }
 
 .button-join-here {
-
   display: flex;
   background: #717CFF;
-  justify-content: space-around;
   border-radius: 11px;
-  width: 200px;
+  width: 226px;
+  height: 64px;
   padding: 12px 20px 12px 34px;
   border: none;
 }
+
+.button-join-here::after{
+  width: 28px;
+  height: 26px;
+  content: "";
+  background-image: url("../img/strelkacha.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 35px;
+  background-position-y: 6px;
+padding-right: 25px;
+padding-left: 50px;
+}
+
 
 .calendar-time {
   font-family: Roboto;
@@ -684,9 +830,24 @@ body {
 
 }
 
-.calendar-time img{
+/* .calendar-time img{
+  margin-right: 10px;
+} */
+
+.calendar-time::before{
+  width: 14px;
+  height: 15px;
+  display: block;
+  content: "";
+  background-image: url("../img/calendar-icon.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 1px;
   margin-right: 10px;
 }
+
+
+
 
 .university-events-texts h2 {
   font-family: Roboto;
@@ -1001,9 +1162,36 @@ height: 308px;
 
 .nav{
   display: inline-flex;
-
   align-items: center;
 }
+
+.nav::after{
+  width: 24px;
+  height: 24px;
+  content: "";
+  background-image: url("../img/strelkacha.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 15px;
+padding-right: 25px;
+padding-left: 50px;
+}
+
+
+.time::before{
+  width: 23px;
+  height: 23px;
+  content: "";
+  background-image: url("../img/time.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 50px;
+  background-position-y: -1px;
+padding-right: 25px;
+padding-left: 50px;
+}
+
+
 
 .time {
   margin-right: 28px;
@@ -1013,11 +1201,6 @@ display: flex;
 .time span{
   margin-right: 5px;
 }
-
-
-
-
-
 
 
 
@@ -1357,6 +1540,30 @@ padding-bottom: 12px;
 }
 
 
+.button-online-strelka-two::after{
+  width: 28px;
+  height: 26px;
+flex-shrink: 0;
+  /* display: block; */
+  content: "";
+  background-image: url("../img/strelkacha.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 30px;
+  padding-right: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .footer-all {
   background-color: #717CFF;
@@ -1383,6 +1590,7 @@ h3 {
   font-size: 18px;
   line-height: 32px;
   color: #EEEEEE;
+  margin-top: 30px;
 }
 
 .footer-logo-texts h3 {
@@ -1429,4 +1637,34 @@ h3 {
   line-height: 49px;
   color: #EEEEEE;
   text-decoration: none;
+}
+
+.sot-set-two li:nth-child(1)::before{
+  width: 10px;
+  height: 16px;
+  display: block;
+  content: "";
+  background-image: url("../img/facebook_24px.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sot-set-two li:nth-child(2)::before{
+  width: 16px;
+  height: 14px;
+  display: block;
+  content: "";
+  background-image: url("../img/twitter2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.sot-set-two li:nth-child(3)::before{
+  width: 16px;
+  height: 17px;
+  display: block;
+  content: "";
+  background-image: url("../img/instagram2.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
