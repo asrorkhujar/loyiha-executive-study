@@ -183,7 +183,7 @@ flex-shrink: 0;
 }
 
 
-.sot-set li:nth-child(1)::before{
+.sot-set-facebook::before{
   width: 13px;
   height: 21px;
   display: block;
@@ -193,7 +193,7 @@ flex-shrink: 0;
   background-repeat: no-repeat;
 }
 
-.sot-set li:nth-child(2)::before{
+.sot-set-twitter::before{
   width: 31px;
   height: 31px;
   display: block;
@@ -203,7 +203,7 @@ flex-shrink: 0;
   background-repeat: no-repeat;
 }
 
-.sot-set li:nth-child(3)::before{
+.sot-set-instagram::before{
   width: 31px;
   height: 31px;
   display: block;
@@ -218,7 +218,7 @@ flex-shrink: 0;
   background-image: url("../img/studentka.png");
   width: 1049px;
   height: 728px;
-  background-position-y: 100px;
+  background-position-y: 165px;
   background-position-x: 50px;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1639,7 +1639,7 @@ h3 {
   text-decoration: none;
 }
 
-.sot-set-two li:nth-child(1)::before{
+.sot-set-two-facebook::before{
   width: 10px;
   height: 16px;
   display: block;
@@ -1649,7 +1649,7 @@ h3 {
   background-repeat: no-repeat;
 }
 
-.sot-set-two li:nth-child(2)::before{
+.sot-set-two-twitter::before{
   width: 16px;
   height: 14px;
   display: block;
@@ -1659,7 +1659,7 @@ h3 {
   background-repeat: no-repeat;
 }
 
-.sot-set-two li:nth-child(3)::before{
+.sot-set-two-instagram::before{
   width: 16px;
   height: 17px;
   display: block;
